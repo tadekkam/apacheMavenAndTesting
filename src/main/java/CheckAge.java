@@ -5,7 +5,7 @@ public class CheckAge {
     System.out.println(ageCheck(age));
 
     }
-    public static boolean ageCheck(byte age) {
+    public static boolean ageCheck(int age) {
         return age >= 18;
         }
 }
